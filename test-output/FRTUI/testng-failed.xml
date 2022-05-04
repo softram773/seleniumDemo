@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [FRTUI]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="runner.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="webforms(failed)">
+    <classes>
+      <class name="com.demo.forms.WebTableMain">
+        <methods>
+          <include name="setUp"/>
+          <include name="tabledata"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.demo.forms.WebTableMain -->
+    </classes>
+  </test> <!-- webforms(failed) -->
+  <test thread-count="2" parallel="classes" name="signupforms(failed)">
+    <classes>
+      <class name="com.demo.forms.Signupmainform">
+        <methods>
+          <include name="enterEmailID"/>
+          <include name="uploadFile"/>
+          <include name="cleanUp"/>
+          <include name="clickOnSignUpForm"/>
+          <include name="selectYearsOfExp"/>
+          <include name="enterFaxNum"/>
+          <include name="enterTelePhoneNumber"/>
+          <include name="enterUserName"/>
+          <include name="selectGender"/>
+          <include name="selectSkills"/>
+          <include name="setup"/>
+          <include name="selectAutomationTool"/>
+        </methods>
+      </class> <!-- com.demo.forms.Signupmainform -->
+    </classes>
+  </test> <!-- signupforms(failed) -->
+</suite> <!-- Failed suite [FRTUI] -->

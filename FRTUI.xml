@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FRTUI">
+<listeners>
+	<listener class-name="runner.TestListener"/>
+</listeners>
+   <test name="signupforms">
+    <classes>
+      <class name="com.demo.forms.Signupmainform"/>
+      </classes>
+    </test>
+    <test name="webforms">
+    <classes>
+      <class name="com.demo.forms.WebTableMain"/>
+    </classes> 
+    </test> 
+    <test name="Frameforms">
+     <classes>
+      <class name="com.demo.forms.FrameForm"/>
+     </classes>
+    </test>
+    <test name="Alert">
+    <classes>
+    	<class name="com.demo.alert.AlertDemo"/>
+    </classes>
+    </test>
+    <test name="NestedFrames">
+    <classes>
+    	<class name="com.demo.forms.NestedFrame"/>
+    </classes>
+    </test>
+</suite>

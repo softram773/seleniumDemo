@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="27" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-04T16:46:17 IST" name="FRTUI" finished-at="2022-05-04T16:47:28 IST" duration-ms="70656">
+    <groups>
+    </groups>
+    <test started-at="2022-05-04T16:46:17 IST" name="signupforms" finished-at="2022-05-04T16:46:29 IST" duration-ms="11446">
+      <class name="com.demo.forms.Signupmainform">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:17 IST" name="setup" finished-at="2022-05-04T16:46:24 IST" duration-ms="6378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnSignUpForm()[pri:10, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:24 IST" name="clickOnSignUpForm" finished-at="2022-05-04T16:46:25 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignUpForm -->
+        <test-method signature="enterUserName()[pri:20, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:25 IST" name="enterUserName" finished-at="2022-05-04T16:46:25 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserName -->
+        <test-method signature="enterEmailID()[pri:30, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:25 IST" name="enterEmailID" finished-at="2022-05-04T16:46:26 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailID -->
+        <test-method signature="enterTelePhoneNumber()[pri:40, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:26 IST" name="enterTelePhoneNumber" finished-at="2022-05-04T16:46:26 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTelePhoneNumber -->
+        <test-method signature="enterFaxNum()[pri:50, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:26 IST" name="enterFaxNum" finished-at="2022-05-04T16:46:26 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFaxNum -->
+        <test-method signature="uploadFile()[pri:60, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:26 IST" name="uploadFile" finished-at="2022-05-04T16:46:26 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+        <test-method signature="selectGender()[pri:70, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:26 IST" name="selectGender" finished-at="2022-05-04T16:46:27 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGender -->
+        <test-method signature="selectYearsOfExp()[pri:80, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:27 IST" name="selectYearsOfExp" finished-at="2022-05-04T16:46:27 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYearsOfExp -->
+        <test-method signature="selectSkills()[pri:90, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:27 IST" name="selectSkills" finished-at="2022-05-04T16:46:28 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSkills -->
+        <test-method signature="selectAutomationTool()[pri:100, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:28 IST" name="selectAutomationTool" finished-at="2022-05-04T16:46:28 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAutomationTool -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.demo.forms.Signupmainform@342c38f8]" started-at="2022-05-04T16:46:28 IST" name="cleanUp" finished-at="2022-05-04T16:46:29 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.demo.forms.Signupmainform -->
+    </test> <!-- signupforms -->
+    <test started-at="2022-05-04T16:46:29 IST" name="webforms" finished-at="2022-05-04T16:46:36 IST" duration-ms="7269">
+      <class name="com.demo.forms.WebTableMain">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.forms.WebTableMain@b9b00e0]" started-at="2022-05-04T16:46:29 IST" name="setUp" finished-at="2022-05-04T16:46:33 IST" duration-ms="4196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectWebTableLink()[pri:10, instance:com.demo.forms.WebTableMain@b9b00e0]" started-at="2022-05-04T16:46:33 IST" name="selectWebTableLink" finished-at="2022-05-04T16:46:35 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectWebTableLink -->
+        <test-method signature="getColumnSizeFromTable()[pri:30, instance:com.demo.forms.WebTableMain@b9b00e0]" started-at="2022-05-04T16:46:35 IST" name="getColumnSizeFromTable" finished-at="2022-05-04T16:46:35 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getColumnSizeFromTable -->
+        <test-method signature="getRowSizeFromTable()[pri:40, instance:com.demo.forms.WebTableMain@b9b00e0]" started-at="2022-05-04T16:46:35 IST" name="getRowSizeFromTable" finished-at="2022-05-04T16:46:35 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRowSizeFromTable -->
+        <test-method signature="tabledata()[pri:50, instance:com.demo.forms.WebTableMain@b9b00e0]" started-at="2022-05-04T16:46:35 IST" name="tabledata" finished-at="2022-05-04T16:46:35 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabledata -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.demo.forms.WebTableMain@b9b00e0]" started-at="2022-05-04T16:46:35 IST" name="cleanUp" finished-at="2022-05-04T16:46:36 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.demo.forms.WebTableMain -->
+    </test> <!-- webforms -->
+    <test started-at="2022-05-04T16:46:36 IST" name="Frameforms" finished-at="2022-05-04T16:46:43 IST" duration-ms="7027">
+      <class name="com.demo.forms.FrameForm">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:36 IST" name="setUp" finished-at="2022-05-04T16:46:40 IST" duration-ms="4234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnFrame()[pri:10, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:40 IST" name="clickOnFrame" finished-at="2022-05-04T16:46:42 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFrame -->
+        <test-method signature="enterUserName()[pri:20, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:42 IST" name="enterUserName" finished-at="2022-05-04T16:46:42 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserName -->
+        <test-method signature="clickOnLink()[pri:30, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:42 IST" name="clickOnLink" finished-at="2022-05-04T16:46:42 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLink -->
+        <test-method signature="mainHandel()[pri:40, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:42 IST" name="mainHandel" finished-at="2022-05-04T16:46:42 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHandel -->
+        <test-method signature="allChildhandels()[pri:50, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:42 IST" name="allChildhandels" finished-at="2022-05-04T16:46:42 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allChildhandels -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.demo.forms.FrameForm@272113c4]" started-at="2022-05-04T16:46:42 IST" name="cleanUp" finished-at="2022-05-04T16:46:43 IST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.demo.forms.FrameForm -->
+    </test> <!-- Frameforms -->
+    <test started-at="2022-05-04T16:46:43 IST" name="Alert" finished-at="2022-05-04T16:47:11 IST" duration-ms="27423">
+      <class name="com.demo.alert.AlertDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.alert.AlertDemo@534a5a98]" started-at="2022-05-04T16:46:43 IST" name="setUp" finished-at="2022-05-04T16:46:53 IST" duration-ms="10095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="acceptButtonOk()[pri:10, instance:com.demo.alert.AlertDemo@534a5a98]" started-at="2022-05-04T16:46:53 IST" name="acceptButtonOk" finished-at="2022-05-04T16:46:54 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptButtonOk -->
+        <test-method signature="acceptAfter5Sec()[pri:20, instance:com.demo.alert.AlertDemo@534a5a98]" started-at="2022-05-04T16:46:54 IST" name="acceptAfter5Sec" finished-at="2022-05-04T16:46:59 IST" duration-ms="5466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAfter5Sec -->
+        <test-method signature="dismissButton()[pri:30, instance:com.demo.alert.AlertDemo@534a5a98]" started-at="2022-05-04T16:46:59 IST" name="dismissButton" finished-at="2022-05-04T16:47:04 IST" duration-ms="5202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissButton -->
+        <test-method signature="promptButton()[pri:40, instance:com.demo.alert.AlertDemo@534a5a98]" started-at="2022-05-04T16:47:04 IST" name="promptButton" finished-at="2022-05-04T16:47:10 IST" duration-ms="5384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptButton -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.demo.alert.AlertDemo@534a5a98]" started-at="2022-05-04T16:47:10 IST" name="cleanUp" finished-at="2022-05-04T16:47:11 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.demo.alert.AlertDemo -->
+    </test> <!-- Alert -->
+    <test started-at="2022-05-04T16:47:11 IST" name="NestedFrames" finished-at="2022-05-04T16:47:28 IST" duration-ms="17202">
+      <class name="com.demo.forms.NestedFrame">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.forms.NestedFrame@2e3967ea]" started-at="2022-05-04T16:47:11 IST" name="setUp" finished-at="2022-05-04T16:47:26 IST" duration-ms="15442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterText()[pri:10, instance:com.demo.forms.NestedFrame@2e3967ea]" started-at="2022-05-04T16:47:26 IST" name="enterText" finished-at="2022-05-04T16:47:27 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterText -->
+        <test-method signature="switchToFrame1()[pri:20, instance:com.demo.forms.NestedFrame@2e3967ea]" started-at="2022-05-04T16:47:27 IST" name="switchToFrame1" finished-at="2022-05-04T16:47:28 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToFrame1 -->
+      </class> <!-- com.demo.forms.NestedFrame -->
+    </test> <!-- NestedFrames -->
+  </suite> <!-- FRTUI -->
+</testng-results>

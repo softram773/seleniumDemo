@@ -31,7 +31,7 @@ public class NestedFrame {
 		nestedFrames.switchToFrm("Tutorials");
 	}
 	
-	@AfterClass(enabled=false)
+	@AfterClass(enabled=true)
 	public void cleanUp() {
 		driver.quit();
 	}

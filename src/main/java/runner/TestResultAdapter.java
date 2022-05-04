@@ -76,4 +76,10 @@ public class TestResultAdapter implements IResultListener2 {
 		return test_passed;
 	}
 
+	@Override
+	public void beforeConfiguration(ITestResult tr) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

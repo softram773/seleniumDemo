@@ -28,6 +28,7 @@
         <assertj.version>3.18.1</assertj.version>
         <mockitoinline.version>3.8.0</mockitoinline.version>
         <wiremock.version>2.27.2</wiremock.version>
+        <suiteXmlFile>FRTUI.xml</suiteXmlFile>
     </properties>
  
     <dependencies>
@@ -70,7 +71,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.10</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 <dependency>
     <groupId>org.apache.poi</groupId>
@@ -96,10 +97,16 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
             </plugin>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-            </plugin>
+           	<plugin>
+    			<artifactId>maven-surefire-plugin</artifactId>
+    			<version>2.19.1</version>
+    	<configuration>
+    			<suiteXmlFiles>
+    				<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+    			</suiteXmlFiles>
+        		<testFailureIgnore>true</testFailureIgnore>
+    	</configuration>
+        	</plugin>
         </plugins>
     </build>
 

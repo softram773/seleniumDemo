@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="89.005" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="JOB_NAME" value="LocalSeleniumRunner"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/LocalSeleniumRunner/14/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\amram\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="bc9cd0426bd0e05c"/>
+    <property name="POM_ARTIFACTID" value="practiceparallel"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PYTHONPATH" value="C:\Users\amram\Desktop\importmodule"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="practiceparallel"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\amram\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="PDA_BASE_DIR" value="C:\SpeedPro Starter\SpeedPro Starter.exe"/>
+    <property name="ComSpec01" value="C:\Windows\system32\cmd01.exe"/>
+    <property name="user.name" value="amram"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="LocalSeleniumRunner"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/LocalSeleniumRunner/14/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="=G:" value="G:\selenium-driver\jenkins"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\amram\AppData\Local"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="amram"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="SNP" value="https://%66%65%65%64.%68%65%6C%70%65%72%62%61%72.%63%6F%6D?publisher=defaultap&amp;co=IN&amp;userid=f25401ef-d8c8-535c-c938-7ab82541bb3a&amp;searchtype=sc&amp;installDate=&amp;barcodeid=50014999&amp;channelid=999&amp;av=windows"/>
+    <property name="BUILD_ID" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="MVN_HOME" value="C:\apache-maven-3.8.5-bin\apache-maven-3.8.5\"/>
+    <property name="=::" value="::\"/>
+    <property name="SNF" value="C:\ProgramData\Subair\snp.sc"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.3"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/LocalSeleniumRunner/14/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\amram\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/LocalSeleniumRunner/14/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/LocalSeleniumRunner/display/redirect"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="RAMESH"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="HOMEPATH" value="\Users\amram"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="RAMESH"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="SeleniumParallel"/>
+    <property name="user.home" value="C:\Users\amram"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-LocalSeleniumRunner-14"/>
+    <property name="JENKINS_SERVER_COOKIE" value="bc9cd0426bd0e05c"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\amram"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Python27\chromedriver_win32;C:\Program Files\PuTTY\;C:\Program Files (x86)\PuTTY\;C:\Python27\Scripts;C:\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.13;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\amram\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
+    <property name="java.class.path" value="C:\Users\amram\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven C:\Users\amram\.jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\Users\amram\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\amram\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53960"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Python27\chromedriver_win32;C:\Program Files\PuTTY\;C:\Program Files (x86)\PuTTY\;C:\Python27\Scripts;C:\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.13;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\amram\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\amram\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/LocalSeleniumRunner/14/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\amram\workspace\practiceparallel"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/LocalSeleniumRunner/"/>
+    <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="USERDOMAIN" value="RAMESH"/>
+    <property name="MAVEN_HOME" value="C:\Users\amram\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Testmaven"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="14"/>
+    <property name="PROCESSOR_REVISION" value="3c03"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Windows\System32"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\amram\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\amram\.jenkins\workspace\LocalSeleniumRunner@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\amram\.jenkins\workspace\LocalSeleniumRunner"/>
+    <property name="maven3.interceptor.common" value="C:\Users\amram\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase name="clickOnSignUpForm" classname="com.demo.forms.Signupmainform" time="1.346"/>
+  <testcase name="enterUserName" classname="com.demo.forms.Signupmainform" time="0.29"/>
+  <testcase name="enterEmailID" classname="com.demo.forms.Signupmainform" time="0.284"/>
+  <testcase name="enterTelePhoneNumber" classname="com.demo.forms.Signupmainform" time="0.224"/>
+  <testcase name="enterFaxNum" classname="com.demo.forms.Signupmainform" time="0.06"/>
+  <testcase name="uploadFile" classname="com.demo.forms.Signupmainform" time="0.351"/>
+  <testcase name="selectGender" classname="com.demo.forms.Signupmainform" time="0.312"/>
+  <testcase name="selectYearsOfExp" classname="com.demo.forms.Signupmainform" time="0.389"/>
+  <testcase name="selectSkills" classname="com.demo.forms.Signupmainform" time="0.358"/>
+  <testcase name="selectAutomationTool" classname="com.demo.forms.Signupmainform" time="0.327"/>
+  <testcase name="selectWebTableLink" classname="com.demo.forms.WebTableMain" time="1.625"/>
+  <testcase name="getColumnSizeFromTable" classname="com.demo.forms.WebTableMain" time="0.069"/>
+  <testcase name="getRowSizeFromTable" classname="com.demo.forms.WebTableMain" time="0.058"/>
+  <testcase name="tabledata" classname="com.demo.forms.WebTableMain" time="0.423"/>
+  <testcase name="clickOnFrame" classname="com.demo.forms.FrameForm" time="1.429"/>
+  <testcase name="enterUserName" classname="com.demo.forms.FrameForm" time="0.352"/>
+  <testcase name="clickOnLink" classname="com.demo.forms.FrameForm" time="0.388"/>
+  <testcase name="mainHandel" classname="com.demo.forms.FrameForm" time="0.012"/>
+  <testcase name="allChildhandels" classname="com.demo.forms.FrameForm" time="0.009"/>
+  <testcase name="acceptButtonOk" classname="com.demo.alert.AlertDemo" time="0.225"/>
+  <testcase name="acceptAfter5Sec" classname="com.demo.alert.AlertDemo" time="5.965"/>
+  <testcase name="dismissButton" classname="com.demo.alert.AlertDemo" time="5.277"/>
+  <testcase name="promptButton" classname="com.demo.alert.AlertDemo" time="5.384"/>
+  <testcase name="enterText" classname="com.demo.forms.NestedFrame" time="0.903"/>
+  <testcase name="switchToFrame1" classname="com.demo.forms.NestedFrame" time="3.874"/>
+</testsuite>
